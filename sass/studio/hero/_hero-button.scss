@@ -1,0 +1,27 @@
+/*-------HERO-BUTTON------*/
+
+.hero__hero-button {
+  border-radius: 4px;
+  border-color: var(--hero-footer-buttons-bgcolor);
+  padding: 10px 32px;
+  min-width: 200px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  text-align: center;
+
+  color: var(--text-bottons-color);
+  background-color: var(--hero-footer-buttons-bgcolor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color 250ms var(--animation-timer);
+
+  &:focus,
+  &:hover {
+    background-color: var(--hero-footer-buttons-hover-focus-color);
+  }
+
+}

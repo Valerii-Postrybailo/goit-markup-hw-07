@@ -1,0 +1,85 @@
+/* ---check-box ---*/
+
+.form__checkbox {
+  /* position: absolute;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; */
+
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  /*----checked---- */
+  &:checked+.form__check-icon {
+    background-image: url(../modal-window-check-svg/only-tick.svg);
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    transition: 250ms var(--animation-timer);
+  }
+
+  &:focus+.form__check-icon {
+    background-color: var(--main-white-color)
+  }
+  
+  &:checked:focus+.form__check-icon {
+    background-image: url(../modal-window-check-svg/only-tick.svg);
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
+
+}
+
+.form__check-icon {
+  position: absolute;
+  margin-left: -1.6em;
+
+  width: 16px;
+  height: 15px;
+
+  background-position-x: 70%;
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+
+  background-image: url(../modal-window-check-svg/check-box-icon.svg);
+
+  transition: 250ms var(--animation-timer);
+}
+
+.modal__submit-button {
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  padding: 10px 55px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  color: #fff;
+
+  transition: var(--animation-timer);
+
+  &:hover,
+  &:focus {
+    background-color: #188CE8;
+  }
+}
