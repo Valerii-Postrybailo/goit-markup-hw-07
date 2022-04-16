@@ -1,0 +1,10 @@
+
+/*-----HEADER-----*/
+.page-header {
+  border-bottom: var(--header-bottom-line);
+
+  &__header-section{
+    display: flex;
+    align-items: center;
+  }
+}

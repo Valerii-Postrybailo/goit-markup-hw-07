@@ -1,0 +1,37 @@
+.worderks-list__social-messengers {
+  display: inline-flex;
+}
+
+.worderks-list__messenger{
+  &:not(:last-child) {
+  margin-right: 10px;
+  }
+}
+
+.worderks-list__personal-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+
+  background-color: var(--workers-card-bg-cl);
+
+  transition: background-color 250ms var(--animation-timer);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.worderks-list__person-link {
+  fill: #afb1b8;
+  transition: fill 250ms var(--animation-timer);
+
+  .worderks-list__personal-page:hover &,
+  .worderks-list__personal-page:focus & {
+    fill: var(--workers-card-bg-cl);
+  }
+}

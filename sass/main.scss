@@ -4,27 +4,27 @@
 @import './base/container';
 @import './utils/hidden';
 
-@import './components/header/page-header';
-@import './components/header/header-logo';
-@import './components/header/nav';
-@import './components/header/mail-and-tel';
+@import './components/page-header';
+@import './components/header-logo';
+@import './components/nav';
+@import './components/mail-and-tel';
 
-@import './studio/hero/hero';
-@import './studio/hero/hero-title';
-@import './studio/hero/hero-button';
+@import './components/hero';
+@import './components/hero-title';
+@import './components/hero-button';
 
-@import './studio/advantages-section/section-advantages';
+@import './components/section-advantages';
 
-@import './studio/our-products-section/our-products-section';
+@import './components/our-products-section';
 
-@import './studio/workers-section/workers';
-@import './studio/workers-section/workers-messangers';
+@import './components/workers';
+@import './components/workers-messangers';
 
-@import './studio/clients-section/clients';
+@import './components/clients';
 
-@import './portfolio/filter-buttons';
-@import './portfolio/card';
-@import './portfolio/overlay-and-shadows';
+@import './components/filter-buttons';
+@import './components/card';
+@import './components/overlay-and-shadows';
 
 @import './components/page-footer';
 @import './components/footer-logo';
@@ -32,8 +32,8 @@
 @import './components/messangers';
 @import './components/mail-form';
 
-@import './components/modal-window/backdrop';
-@import './components/modal-window/modal-window';
-@import './components/modal-window/modal-window-form';
-@import './components/modal-window/checkbox-and-button';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-window-form';
+@import './components/checkbox-and-button';
 

@@ -1,0 +1,42 @@
+/*---------------MAIL-AND-TEL+THEIR-ICON----------*/
+
+/*---------MAIL-AND-TEL-------*/
+
+.mail-and-tel__list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.mail-and-tel__item{
+  &:not(:last-child) {
+  margin-right: 50px;
+  }
+}
+
+.mail-and-tel__link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--mail-and-tell-color);
+  
+  transition: color 250ms var(--animation-timer);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+/*-----------iCON---------*/
+
+.mail-and-tel__contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

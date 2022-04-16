@@ -1,11 +1,11 @@
-$mainFont: "Roboto";
-$secondaryFont: "Raleway";
+$main-font: "Roboto";
+$secondary-font: "Raleway";
 
 body {
   background-color: var(--main-white-color);
   color: var(--title-color);
 
-  font-family: $mainFont, $secondaryFont, sans-serif;
+  font-family: $main-font, $secondary-font, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;

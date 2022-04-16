@@ -229,6 +229,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -257,8 +260,8 @@ ul {
   padding-bottom: 200px;
   text-align: center;
   background-color: var(--hero-and-footer-bgcolor);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(0, 2, 17, 0.4))), url(../hero-img-and-svg/hero-img.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(0, 2, 17, 0.4)), url(../hero-img-and-svg/hero-img.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(0, 2, 17, 0.4))), url(../images/hero-img-and-svg/hero-img.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(0, 2, 17, 0.4)), url(../images/hero-img-and-svg/hero-img.jpg);
   max-width: 1600px;
 }
 
@@ -898,7 +901,7 @@ ul {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background-image: url(../hero-img-and-svg/icon-send-footer.svg);
+  background-image: url(../images/hero-img-and-svg/icon-send-footer.svg);
 }
 
 /*-----backdrop------*/
@@ -1062,8 +1065,8 @@ ul {
   transition: 250ms var(--animation-timer);
 }
 
-.form__intend-icon:hover ~ .form__intend-icon,
-.form__intend-icon:focus ~ .form__intend-icon {
+.form__input:hover ~ .form__intend-icon,
+.form__input:focus ~ .form__intend-icon {
   fill: var(--accent-color);
 }
 
@@ -1122,7 +1125,7 @@ ul {
 }
 
 .form__checkbox:checked + .form__check-icon {
-  background-image: url(../modal-window-check-svg/only-tick.svg);
+  background-image: url(../images/modal-window-check-svg/only-tick.svg);
   background-color: var(--accent-color);
   border-radius: 2px;
   -webkit-transition: 250ms var(--animation-timer);
@@ -1134,7 +1137,7 @@ ul {
 }
 
 .form__checkbox:checked:focus + .form__check-icon {
-  background-image: url(../modal-window-check-svg/only-tick.svg);
+  background-image: url(../images/modal-window-check-svg/only-tick.svg);
   background-color: var(--accent-color);
   border-radius: 2px;
 }
@@ -1147,7 +1150,7 @@ ul {
   background-position-x: 70%;
   background-position-y: 60%;
   background-repeat: no-repeat;
-  background-image: url(../modal-window-check-svg/check-box-icon.svg);
+  background-image: url(../images/modal-window-check-svg/check-box-icon.svg);
   -webkit-transition: 250ms var(--animation-timer);
   transition: 250ms var(--animation-timer);
 }

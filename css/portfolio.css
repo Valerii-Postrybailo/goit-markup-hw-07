@@ -229,6 +229,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -580,6 +583,6 @@ ul {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background-image: url(../hero-img-and-svg/icon-send-footer.svg);
+  background-image: url(../images/hero-img-and-svg/icon-send-footer.svg);
 }
 /*# sourceMappingURL=portfolio.css.map */
